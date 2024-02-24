@@ -53,9 +53,9 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-5">
         {featuresData.map((item) => (
           <div className="card border shadow-lg hover:scale-105 duration-500 hover:text-accent shadow-slate-700 w-full p-4">
-            <h1 className="text-7xl font-bold">{item.icon}</h1>
-            <h1 className="text-2xl font-bold">{item.title}</h1>
-            <p className="text-xl pt-4">{item.des}</p>
+            <h1 className="text-5xl md:text-7xl font-bold">{item.icon}</h1>
+            <h1 className="text-xl md:text-2xl font-bold">{item.title}</h1>
+            <p className="text-md md:text-lg pt-4">{item.des}</p>
           </div>
         ))}
       </div>

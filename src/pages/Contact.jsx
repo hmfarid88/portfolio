@@ -15,15 +15,15 @@ const Contact = () => {
                         <FaRegHandshake className="size-16 md:size-36 hover:scale-110 duration-500" />
                     </div>
                     <div className="div">
-                        <h1 className="text-2xl font-bold px-4 mt-2">HM Farid Uddin</h1>
-                        <p className="tracking-widest text-lg px-4">Software Engineer</p>
-                        <p className="text-lg tracking-widest pt-4 px-4">I am available for freelance work. Connect with me via and call in to my account.</p>
-                        <p className="text-lg text-white px-4 pt-4">Phone : +8801676182277</p>
-                        <p className="text-lg text-white px-4">Email : hmfariduddin189@gmail.com</p>
+                        <h1 className="text-2xl text-center md:text-left font-bold px-4 mt-2">HM Farid Uddin</h1>
+                        <p className="text-md md:text-lg text-center md:text-left tracking-widest px-4">Software Engineer</p>
+                        <p className="text-md md:text-lg text-center md:text-left tracking-widest pt-4 px-4">I am available for freelance work. Connect with me via and call in to my account.</p>
+                        <p className="text-md md:text-lg text-center md:text-left text-white px-4 pt-4">Phone : +8801676182277</p>
+                        <p className="text-md md:text-lg text-center md:text-left text-white px-4">Email : hmfariduddin189@gmail.com</p>
                     </div>
                     <div className="div p-2 pt-8">
                             <div className="div">
-                                <p className='text-xs md:text-sm font-bold tracking-widest'>FIND WITH ME</p>
+                                <p className='text-xs md:text-sm text-center font-bold tracking-widest'>FIND WITH ME</p>
                             </div>
                             <div className="flex gap-5 pt-4">
                                 <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">

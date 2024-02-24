@@ -101,12 +101,12 @@ const Resume = () => {
               <h1 className="text-3xl text-center font-bold tracking-widest p-4">Education</h1>
               <ul className="steps steps-vertical">
                 {resumeData.map((item) => (
-                  <li className="step step-primary hover:step-error p-4">
-                    <div className="card border shadow-lg hover:translate-x-1 duration-500 shadow-slate-700 w-full p-5 overflow-hidden relative">
+                  <li className="step step-primary hover:step-error p-2">
+                    <div className="card border shadow-lg hover:translate-x-1 duration-500 shadow-slate-700 h-60 w-full p-4 overflow-hidden">
                       <h1 className="text-lg md:text-xl font-bold">{item.title}</h1>
-                      <p className="text-md fond-bold p-2">{item.subTitle}</p>
-                      <p className="w-full absolute text-right p-5 md:p-6"><button className="btn btn-md btn-ghost text-designColor">{item.point}</button></p>
-                      <p className="text-md fond-bold pt-5">{item.des}</p>
+                      <p className="text-md md:text-lg fond-bold p-2">{item.subTitle}</p><p className=" text-designColor">{item.point}</p>
+                      {/* <p className="w-full absolute text-xs md:text-sm text-right p-6"><button className="btn btn-md btn-ghost text-designColor">{item.point}</button></p> */}
+                      <p className="text-sm md:text-md fond-bold pt-5">{item.des}</p>
                     </div>
                   </li>
                 ))}
@@ -114,13 +114,13 @@ const Resume = () => {
               </ul>
             </div>
           </div>
-          <div className="flex mt-4">
+          <div className="flex pt-4">
             <div className="w-full">
               <h1 className="text-3xl text-center font-bold tracking-widest p-4">Development Skills</h1>
               <ul className="steps steps-vertical w-full px-4">
                 {devData.map((item) => (
                   <li className="step step-primary hover:step-error p-2">
-                    <div className="card border shadow-lg hover:translate-x-1 duration-500 shadow-slate-700 w-full mt-2 p-5">
+                    <div className="card border shadow-lg hover:translate-x-1 duration-500 shadow-slate-700 h-60 w-full pt-5 p-5">
                       <h1 className="text-lg font-bold">{item.title}</h1>
                       <label className="form-control w-full p-2">
                         <div className="label justify-between">

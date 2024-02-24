@@ -11,9 +11,9 @@ const Hero = () => {
         <section name="hero">
             <div className="container-2xl pt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
-                    <div className="px-4 md:px-24 order-last md:order-first">
-                        <p className='text-md md:text-lg font-bold tracking-widest pt-4' >WELCOME TO MY WORLD</p>
-                        <h1 className='font-bold font-sans text-lg md:text-4xl pt-4'>
+                    <div className="px-4 md:px-10 order-last md:order-first">
+                        <p className='text-sm md:text-md font-bold tracking-widest pt-4' >WELCOME TO MY WORLD</p>
+                        <h1 className='font-bold font-sans text-lg md:text-2xl pt-4'>
                             Hi, I'm <a className='text-accent'>HM Farid Uddin</a> {' '}<br />
                             <span style={{ color: '#ffff' }}>
                                 <Typewriter
@@ -28,16 +28,16 @@ const Hero = () => {
                                 />
                             </span>
                         </h1>
-                        <p className='text-xl pt-4'>
+                        <p className='text-md md:text-lg pt-4'>
                             I make elegantly professional web appplication and design user experience. If you want me to do any one of these for you, get in touch with me here.
                         </p>
-                        <div className="grid grid-cols-1 md:grid-cols-2 md:items-center pt-24">
+                        <div className="grid grid-cols-1 md:grid-cols-2 pt-24">
 
                             <div className="div w-full">
                                 <div className="div">
-                                    <p className='text-md md:text-lg font-bold tracking-widest'>FIND WITH ME</p>
+                                    <p className='text-sm md:text-md font-bold text-center tracking-widest'>FIND WITH ME</p>
                                 </div>
-                                <div className="flex gap-5 pt-4">
+                                <div className="flex gap-2 pt-4 items-center justify-center">
                                     <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
                                         <FiFacebook className=' size-8' />
                                     </div>
@@ -45,15 +45,15 @@ const Hero = () => {
                                         <FiLinkedin className=' size-8' />
                                     </div>
                                     <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <FiGithub className=' size-8' />
+                                        <FiGithub className='size-8' />
                                     </div>
                                 </div>
                             </div>
-                            <div className="div pt-4 md:pt-0 md:px-10 w-full">
+                            <div className="div pt-4 md:pt-0 md:px-3 w-full">
                                 <div className="div">
-                                    <p className='text-md md:text-lg font-bold tracking-widest'>BEST SKILL ON</p>
+                                    <p className='text-sm md:text-md font-bold text-center tracking-widest'>BEST SKILL ON</p>
                                 </div>
-                                <div className="flex gap-5 pt-4">
+                                <div className="flex gap-2 pt-4 items-center justify-center">
                                     <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
                                         <FaReact className='size-8' />
                                     </div>
