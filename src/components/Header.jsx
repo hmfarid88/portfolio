@@ -56,7 +56,7 @@ const Header = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal text-lg hover:text-accent px-1">
+          <ul className="menu menu-horizontal hover:text-accent px-1">
             {menuData.map(({ title, link }) => (
               <><li><Link to={link} key={title}
                 spy={true}

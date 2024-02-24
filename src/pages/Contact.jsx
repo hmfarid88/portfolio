@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi";
 const Contact = () => {
     return (
         <section name="contact">
-        <div className="container-2xl p-4">
+        <div className="container-2xl p-4 pt-4">
             <div className="flex items-center justify-center w-full">
             <div className="divider divider-center tracking-widest text-xl md:text-2xl font-bold text-accent divider-accent w-96">CONTACT WITH ME</div>
       </div>
