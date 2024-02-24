@@ -46,7 +46,7 @@ const Features = () => {
   ]
   return (
     <section name="features">
-    <div className="container-2xl p-4 pt-10">
+    <div className="container-2xl p-4 pt-5">
       <div className="flex items-center justify-center w-full">
         <div className="divider divider-center tracking-widest text-xl md:text-2xl font-bold text-accent divider-accent w-64">WHAT I DO</div>
       </div>

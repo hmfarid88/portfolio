@@ -5,25 +5,25 @@ import { FiGithub } from "react-icons/fi";
 const Contact = () => {
     return (
         <section name="contact">
-        <div className="container-2xl p-4 pt-4">
+        <div className="container-2xl p-4 pt-5">
             <div className="flex items-center justify-center w-full">
             <div className="divider divider-center tracking-widest text-xl md:text-2xl font-bold text-accent divider-accent w-96">CONTACT WITH ME</div>
       </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 p-2">
-                <div className="card rounded-md shadow-lg shadow-slate-500 items-center w-full">
+                <div className="card rounded-md shadow-lg shadow-slate-700 items-center w-full">
                     <div className="">
                         <FaRegHandshake className="size-16 md:size-36 hover:scale-110 duration-500" />
                     </div>
                     <div className="div">
-                        <h1 className="text-2xl font-bold mx-2 mt-2">HM Farid Uddin</h1>
-                        <p className="tracking-widest text-lg font-bold px-2">Software Engineer</p>
-                        <p className="text-lg tracking-widest font-bold pt-4 px-2">I am available for freelance work. Connect with me via and call in to my account.</p>
-                        <p className="text-lg px-2 pt-4">Phone : +8801676182277</p>
-                        <p className="text-lg px-2">Email : hmfariduddin189@gmail.com</p>
+                        <h1 className="text-2xl font-bold px-4 mt-2">HM Farid Uddin</h1>
+                        <p className="tracking-widest text-lg px-4">Software Engineer</p>
+                        <p className="text-lg tracking-widest pt-4 px-4">I am available for freelance work. Connect with me via and call in to my account.</p>
+                        <p className="text-lg text-white px-4 pt-4">Phone : +8801676182277</p>
+                        <p className="text-lg text-white px-4">Email : hmfariduddin189@gmail.com</p>
                     </div>
                     <div className="div p-2 pt-8">
                             <div className="div">
-                                <p className='text-xs md:text-sm tracking-widest'>FIND WITH ME</p>
+                                <p className='text-xs md:text-sm font-bold tracking-widest'>FIND WITH ME</p>
                             </div>
                             <div className="flex gap-5 pt-4">
                                 <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">
@@ -38,7 +38,7 @@ const Contact = () => {
                             </div>
                         </div>
                 </div>
-                <div className="card shadow-lg shadow-slate-500  items-center w-full rounded-md p-2">
+                <div className="card shadow-lg shadow-slate-700  items-center w-full rounded-md p-2">
                     <div className="flex w-80 p-2">
                         <label className="w-full max-w-xl">
                             <div className="label">
