@@ -51,8 +51,8 @@ const Portfolio = () => {
                 < img src={item.img} />
               </figure>
               <div className="card-body items-center text-center hover:text-accent">
-                <h2 className="card-title text-xl">{item.title}</h2>
-                <p className="text-lg">{item.des}</p>
+                <h2 className="card-title text-lg">{item.title}</h2>
+                <p className="text-md">{item.des}</p>
                 <div className="card-actions">
                 </div>
               </div>

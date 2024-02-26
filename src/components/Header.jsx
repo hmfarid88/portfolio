@@ -50,8 +50,12 @@ const Header = () => {
             </ul>
           </div>
           <div className="btn btn-ghost btn-circle avatar hidden lg:block">
-            <div className="w-10 rounded-full">
-              <img alt="Profile Photo" src="/images/farid_logo.png" />
+            <div className="w-12 rounded-full">
+              <Link to="hero"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}> <img alt="Profile Photo" src="/images/farid_logo.png" /></Link>
             </div>
           </div>
         </div>

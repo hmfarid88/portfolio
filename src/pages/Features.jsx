@@ -17,31 +17,31 @@ const Features = () => {
       id: 2,
       icon:<FaLaptopCode/>,
       title: "Website Development",
-      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ut ducimus delectus cupiditate? Aut voluptates similique nisi consequuntur vel a!"
+      des: "I not only design website but also develop very efficient way with next ja and spring boot framework."
     },
     {
       id: 3,
       icon:<IoMdBusiness/>,
       title: "Business Stratagy",
-      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ut ducimus delectus cupiditate? Aut voluptates similique nisi consequuntur vel a!"
+      des: "I make automation system for your business according to your stratagy."
     },
     {
       id: 4,
       icon:<RiSeoLine/>,
       title: "SEO & DIgital Marketing",
-      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ut ducimus delectus cupiditate? Aut voluptates similique nisi consequuntur vel a!"
+      des: "Search engine optimization and digital marketing are very essential for business promotion. I also serve tese for my clients business promotion"
     },
     {
       id: 5,
       icon:<TfiServer/>,
       title: "VPS Server Management",
-      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ut ducimus delectus cupiditate? Aut voluptates similique nisi consequuntur vel a!"
+      des: "I make virtual private server for my project specially for java project. I make it as needed as project demand."
     },
     {
       id: 6,
       icon:<MdOutlinePhoneAndroid/>,
       title: "Mobile App",
-      des: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ut ducimus delectus cupiditate? Aut voluptates similique nisi consequuntur vel a!"
+      des: "I develop mobile app for mobile version of web application and also make native mobile app as need as clients."
     },
   ]
   return (
@@ -53,8 +53,8 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-5">
         {featuresData.map((item) => (
           <div className="card border shadow-lg hover:scale-105 duration-500 hover:text-accent shadow-slate-700 w-full p-4">
-            <h1 className="text-5xl md:text-7xl font-bold">{item.icon}</h1>
-            <h1 className="text-xl md:text-2xl font-bold">{item.title}</h1>
+            <h1 className="text-3xl md:text-5xl text-accent font-bold">{item.icon}</h1>
+            <h1 className="text-lg md:text-xl font-bold">{item.title}</h1>
             <p className="text-md md:text-lg pt-4">{item.des}</p>
           </div>
         ))}

@@ -5,6 +5,7 @@ import { FiGithub } from "react-icons/fi";
 import { FaReact } from "react-icons/fa";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -17,7 +18,7 @@ const Hero = () => {
                             Hi, I'm <a className='text-accent'>HM Farid Uddin</a> {' '}<br />
                             <span style={{ color: '#ffff' }}>
                                 <Typewriter
-                                    words={['A Full Stack Web Developer', 'React & Spring Boot']}
+                                    words={['A Full Stack Developer', 'React & Spring Boot']}
                                     loop={20}
                                     cursor
                                     cursorStyle='|'
@@ -29,7 +30,7 @@ const Hero = () => {
                             </span>
                         </h1>
                         <p className='text-md md:text-lg pt-4'>
-                            I make elegantly professional web appplication and design user experience. If you want me to do any one of these for you, get in touch with me here.
+                            I am a passionate software developer with expertise in web development and a keen interest in building scalable and user-friendly applications. I have experience working with a variety of technologies and frameworks, and I thrive in collaborative team environments.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 pt-24">
 
@@ -37,15 +38,15 @@ const Hero = () => {
                                 <div className="div">
                                     <p className='text-sm md:text-md font-bold text-center tracking-widest'>FIND WITH ME</p>
                                 </div>
-                                <div className="flex gap-2 pt-4 items-center justify-center">
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <FiFacebook className=' size-8' />
+                                <div className="flex gap-3 pt-4 items-center justify-center">
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-10 h-10">
+                                        <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank"><FiFacebook className=' size-6' /></Link>
                                     </div>
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <FiLinkedin className=' size-8' />
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-10 h-10">
+                                        <Link to="https://www.linkedin.com/in/hmfariduddin/" target="_blank"> <FiLinkedin className=' size-6' /></Link>
                                     </div>
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <FiGithub className='size-8' />
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-10 h-10">
+                                        <Link to="https://github.com/hmfarid88/" target="_blank">  <FiGithub className='size-6' /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -54,14 +55,20 @@ const Hero = () => {
                                     <p className='text-sm md:text-md font-bold text-center tracking-widest'>BEST SKILL ON</p>
                                 </div>
                                 <div className="flex gap-2 pt-4 items-center justify-center">
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <FaReact className='size-8' />
+                                    <div className='flex flex-col gap-2'>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>React</button>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Java</button>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>MongoDB</button>
                                     </div>
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <TbBrandNextjs className=' size-8' />
+                                    <div className='flex flex-col gap-2'>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Next.js</button>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Spring Boot</button>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>MySQL</button>
                                     </div>
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-12 h-12">
-                                        <BiLogoSpringBoot className=' size-8' />
+                                    <div className='flex flex-col gap-2'>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Typescript</button>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>TaiwindCSS</button>
+                                        <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>GitHub</button>
                                     </div>
 
                                 </div>

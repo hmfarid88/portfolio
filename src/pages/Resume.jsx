@@ -86,10 +86,10 @@ const Resume = () => {
         <div className="flex w-full items-center justify-center">
           <div className="flex flex-col gap-4 w-52">
             <div className="flex gap-4 items-center">
-              <div className="skeleton w-16 h-16 rounded-full text-center text-lg font-bold text-designColor hover:text-accent p-5 shrink-0">7+</div>
+              <div className="skeleton w-16 h-16 rounded-full text-center text-lg font-bold text-accent p-5 shrink-0">7+</div>
               <div className="flex flex-col gap-4">
-                <div className="skeleton text-center text-lg text-designColor hover:text-accent p-1 h-10 w-20">Years</div>
-                <div className="skeleton text-center text-lg text-designColor hover:text-accent p-1 h-10 w-28">Experience</div>
+                <div className="skeleton text-center text-lg text-accent p-1 h-10 w-20">Years</div>
+                <div className="skeleton text-center text-lg text-accent p-1 h-10 w-28">Experience</div>
               </div>
             </div>
             <div className="skeleton text-xl font-bold tracking-widest text-center text-accent h-16 w-full pt-4">MY RESUME</div>
@@ -102,10 +102,9 @@ const Resume = () => {
               <ul className="steps steps-vertical">
                 {resumeData.map((item) => (
                   <li className="step step-primary hover:step-error p-2">
-                    <div className="card border shadow-lg hover:translate-x-1 duration-500 shadow-slate-700 h-60 w-full p-4 overflow-hidden">
+                    <div className="card border shadow-lg hover:translate-x-1 duration-500 shadow-slate-700 min-h-60 w-full p-4 overflow-hidden">
                       <h1 className="text-lg md:text-xl font-bold">{item.title}</h1>
-                      <p className="text-md md:text-lg fond-bold p-2">{item.subTitle}</p><p className=" text-designColor">{item.point}</p>
-                      {/* <p className="w-full absolute text-xs md:text-sm text-right p-6"><button className="btn btn-md btn-ghost text-designColor">{item.point}</button></p> */}
+                      <p className="text-md md:text-lg fond-bold p-2">{item.subTitle}</p><p className=" text-accent">{item.point}</p>
                       <p className="text-sm md:text-md fond-bold pt-5">{item.des}</p>
                     </div>
                   </li>
@@ -127,14 +126,14 @@ const Resume = () => {
                           <span className="label-text">{item.subtitle1}</span>
                           <span className="label-text">{item.svalue1}%</span>
                         </div>
-                        <progress className="progress progress-success h-4 w-full" value={item.svalue1} max="100"></progress>
+                        <progress className="progress progress-accent h-4 w-full" value={item.svalue1} max="100"></progress>
                       </label>
                       <label className="form-control w-full p-2">
                         <div className="label justify-between">
                           <span className="label-text">{item.subtitle2}</span>
                           <span className="label-text">{item.svalue2}%</span>
                         </div>
-                        <progress className="progress progress-success h-4 w-full" value={item.svalue2} max="100"></progress>
+                        <progress className="progress progress-accent h-4 w-full" value={item.svalue2} max="100"></progress>
                       </label>
                     </div>
                   </li>
