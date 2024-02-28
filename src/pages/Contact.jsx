@@ -72,8 +72,8 @@ const Contact = () => {
                             <h1 className="text-2xl text-center md:text-left font-bold px-4 mt-2">HM Farid Uddin</h1>
                             <p className="text-md md:text-lg text-center md:text-left tracking-widest px-4">Software Engineer</p>
                             <p className="text-md md:text-lg text-center md:text-left tracking-widest pt-4 px-4">I am available for freelance work. Connect with me via and call in to my account.</p>
-                            <p className="text-md md:text-lg text-center md:text-left text-white px-4 pt-4">Phone : +8801676182277</p>
-                            <p className="text-md md:text-lg text-center md:text-left text-white px-4">Email : hmfariduddin189@gmail.com</p>
+                            <p className="text-md md:text-lg text-center md:text-left px-4 pt-4">Phone : +8801676182277</p>
+                            <p className="text-md md:text-lg text-center md:text-left px-4">Email : hmfariduddin189@gmail.com</p>
                         </div>
                         <div className="div p-2 pt-8">
                             <div className="div">

@@ -13,7 +13,7 @@ const Hero = () => {
                         <p className='text-sm md:text-md font-bold tracking-widest pt-4' >WELCOME TO MY WORLD</p>
                         <h1 className='font-bold font-sans text-lg md:text-2xl pt-4'>
                             Hi, I'm <a className='text-accent'>HM Farid Uddin</a> {' '}<br />
-                            <span style={{ color: '#ffff' }}>
+                            <span>
                                 <Typewriter
                                     words={['A Full Stack Developer', 'React & Spring Boot']}
                                     loop={20}
