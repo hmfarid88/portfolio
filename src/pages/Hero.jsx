@@ -2,9 +2,6 @@ import { Typewriter } from 'react-simple-typewriter'
 import { FiFacebook } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
-import { FaReact } from "react-icons/fa";
-import { BiLogoSpringBoot } from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -12,7 +9,7 @@ const Hero = () => {
         <section name="hero">
             <div className="container-2xl pt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
-                    <div className="px-4 md:px-10 order-last md:order-first">
+                    <div className="px-4 md:px-4 order-last md:order-first">
                         <p className='text-sm md:text-md font-bold tracking-widest pt-4' >WELCOME TO MY WORLD</p>
                         <h1 className='font-bold font-sans text-lg md:text-2xl pt-4'>
                             Hi, I'm <a className='text-accent'>HM Farid Uddin</a> {' '}<br />
@@ -36,16 +33,16 @@ const Hero = () => {
 
                             <div className="div w-full">
                                 <div className="div">
-                                    <p className='text-sm md:text-md font-bold text-center tracking-widest'>FIND WITH ME</p>
+                                    <p className='text-sm md:text-md text-center md:text-left font-bold tracking-widest'>FIND WITH ME</p>
                                 </div>
-                                <div className="flex gap-3 pt-4 items-center justify-center">
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-10 h-10">
-                                        <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank"><FiFacebook className=' size-6' /></Link>
+                                <div className="flex gap-2 pt-4 items-center md:items-start justify-center md:justify-start">
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
+                                        <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank"><FiFacebook className='size-6' /></Link>
                                     </div>
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-10 h-10">
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
                                         <Link to="https://www.linkedin.com/in/hmfariduddin/" target="_blank"> <FiLinkedin className=' size-6' /></Link>
                                     </div>
-                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-10 h-10">
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
                                         <Link to="https://github.com/hmfarid88/" target="_blank">  <FiGithub className='size-6' /></Link>
                                     </div>
                                 </div>
@@ -54,7 +51,7 @@ const Hero = () => {
                                 <div className="div">
                                     <p className='text-sm md:text-md font-bold text-center tracking-widest'>BEST SKILL ON</p>
                                 </div>
-                                <div className="flex gap-2 pt-4 items-center justify-center">
+                                <div className="flex gap-1 pt-4 items-center justify-center">
                                     <div className='flex flex-col gap-2'>
                                         <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>React</button>
                                         <button className='btn btn-xs rounded-badge bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Java</button>
