@@ -3,6 +3,7 @@ import { FiFacebook } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { FaRegFilePdf } from "react-icons/fa6";
 
 const Hero = () => {
     return (
@@ -37,16 +38,20 @@ const Hero = () => {
                                 </div>
                                 <div className="flex gap-2 pt-4 items-center md:items-start justify-center md:justify-start">
                                     <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
-                                        <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank"><FiFacebook className='size-6' /></Link>
+                                        <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank"><FiFacebook className='size-6 text-[#316FF6]' /></Link>
                                     </div>
                                     <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
-                                        <Link to="https://www.linkedin.com/in/hmfariduddin/" target="_blank"> <FiLinkedin className=' size-6' /></Link>
+                                        <Link to="https://www.linkedin.com/in/hmfariduddin/" target="_blank"> <FiLinkedin className=' size-6 text-[#0E76A8]' /></Link>
                                     </div>
                                     <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
-                                        <Link to="https://github.com/hmfarid88/" target="_blank">  <FiGithub className='size-6' /></Link>
+                                        <Link to="https://github.com/hmfarid88/" target="_blank">  <FiGithub className='size-6 text-[#2dba4e]' /></Link>
+                                    </div>
+                                    <div className="hover:translate-y-0.5 duration-500 btn-outline btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-9 h-9">
+                                     <Link to="/images/farid_cv.pdf" target="_blank"><FaRegFilePdf className='size-6 text-[#F40F02]' /></Link>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="div pt-4 md:pt-0 md:px-3 w-full">
                                 <div className="div">
                                     <p className='text-sm md:text-md font-bold text-center tracking-widest'>BEST SKILL ON</p>
