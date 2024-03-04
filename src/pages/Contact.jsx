@@ -7,6 +7,7 @@ import { useState } from "react"
 import toast from "react-hot-toast";
 import axios from "axios";
 import { RotatingLines } from "react-loader-spinner";
+import { FaRegFilePdf } from "react-icons/fa6";
 
 const Contact = () => {
     const [userName, setUserName] = useState("");
@@ -81,13 +82,16 @@ const Contact = () => {
                             </div>
                             <div className="flex gap-5 pt-4">
                                 <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">
-                                    <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank">  <FiFacebook className=' size-5' /></Link>
+                                    <Link to="https://www.facebook.com/hmfarid.uddin?mibextid=ZbWKwL" target="_blank">  <FiFacebook className=' size-5 text-[#0E76A8]' /></Link>
                                 </div>
                                 <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">
-                                    <Link to="https://www.linkedin.com/in/hmfariduddin/" target="_blank"> <FiLinkedin className=' size-5' /></Link>
+                                    <Link to="https://www.linkedin.com/in/hmfariduddin/" target="_blank"> <FiLinkedin className=' size-5 text-[#0E76A8]' /></Link>
                                 </div>
                                 <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">
-                                    <Link to="https://github.com/hmfarid88/" target="_blank"> <FiGithub className=' size-5' /></Link>
+                                    <Link to="https://github.com/hmfarid88/" target="_blank"> <FiGithub className=' size-5 text-[#2dba4e]' /></Link>
+                                </div>
+                                <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">
+                                <Link to="/images/farid_cv.pdf" target="_blank"> <FaRegFilePdf className='size-5 text-[#F40F02]' /></Link>
                                 </div>
                             </div>
                         </div>
