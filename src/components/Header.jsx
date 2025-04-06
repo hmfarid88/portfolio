@@ -2,6 +2,7 @@
 
 import { Link } from "react-scroll";
 import { LuMenuSquare } from "react-icons/lu";
+
 const Header = () => {
   const menuData = [
     {
@@ -11,7 +12,7 @@ const Header = () => {
     },
     {
       id: 2,
-      title: "FEATURES",
+      title: "SERVICE",
       link: "features"
     },
     {
@@ -68,7 +69,7 @@ const Header = () => {
                 offset={-50}
                 duration={500}>{title}</Link></li></>
             ))}
-
+          
           </ul>
         </div>
         <div className="navbar-end">

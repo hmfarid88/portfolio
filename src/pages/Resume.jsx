@@ -1,5 +1,8 @@
 /* eslint-disable react/jsx-key */
 
+import { FaRegFilePdf } from "react-icons/fa6"
+import { Link } from "react-router-dom"
+
 const Resume = () => {
   const resumeData = [
     {
@@ -83,16 +86,19 @@ const Resume = () => {
   return (
     <section name="resume">
       <div className="container-2xl mt-10 pt-10">
-        <div className="flex w-full items-center justify-center">
+        <div className="flex flex-col md:flex-row w-full items-center justify-center">
           <div className="flex flex-col gap-4 w-52">
             <div className="flex gap-4 items-center">
-              <div className="skeleton w-16 h-16 rounded-full text-center text-lg font-bold text-accent p-5 shrink-0">7+</div>
+              <div className="skeleton w-16 h-16 rounded-full text-center text-lg font-bold text-accent p-5 shrink-0">5+</div>
               <div className="flex flex-col gap-4">
                 <div className="skeleton text-center text-lg text-accent p-1 h-10 w-20">Years</div>
                 <div className="skeleton text-center text-lg text-accent p-1 h-10 w-28">Experience</div>
               </div>
             </div>
             <div className="skeleton text-xl font-bold tracking-widest text-center text-accent h-16 w-full pt-4">MY RESUME</div>
+          </div>
+          <div className="flex w-1/2 justify-end p-2">
+             <Link to="/images/farid_cv.pdf" target="_blank"><FaRegFilePdf className='size-12 text-[#F40F02]' />Download Resume</Link>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-5">

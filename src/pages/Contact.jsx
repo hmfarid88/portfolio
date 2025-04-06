@@ -70,12 +70,23 @@ const Contact = () => {
                             <FaRegHandshake className="size-16 md:size-36 hover:scale-110 duration-500" />
                         </div>
                         <div className="div">
-                            <h1 className="text-2xl text-center md:text-left font-bold px-4 mt-2">HM Farid Uddin</h1>
-                            <p className="text-md md:text-lg text-center md:text-left tracking-widest px-4">Software Engineer</p>
-                            <p className="text-md md:text-lg text-center md:text-left tracking-widest pt-4 px-4">I am available for freelance work. Connect with me via and call in to my account.</p>
-                            <p className="text-md md:text-lg text-center md:text-left px-4 pt-4">Phone : +8801676182277</p>
-                            <p className="text-md md:text-lg text-center md:text-left px-4">Email : hmfariduddin189@gmail.com</p>
+                            <h1 className="text-2xl text-center md:text-left font-bold px-4 mt-2">
+                                HM Farid Uddin
+                            </h1>
+                            <p className="text-md md:text-lg text-center md:text-left tracking-widest px-4">
+                                Full Stack Developer
+                            </p>
+                            <p className="text-md md:text-lg text-center md:text-left tracking-widest pt-4 px-4">
+                                I’m available for freelance, remote, and onsite opportunities. Feel free to connect with me or reach out directly.
+                            </p>
+                            <p className="text-md md:text-lg text-center md:text-left px-4 pt-4">
+                                📞 Phone: +8801676182277
+                            </p>
+                            <p className="text-md md:text-lg text-center md:text-left px-4">
+                                📧 Email: hmfariduddin189@gmail.com
+                            </p>
                         </div>
+
                         <div className="div p-2 pt-8">
                             <div className="div">
                                 <p className='text-xs md:text-sm text-center font-bold tracking-widest'>FIND WITH ME</p>
@@ -91,7 +102,7 @@ const Contact = () => {
                                     <Link to="https://github.com/hmfarid88/" target="_blank"> <FiGithub className=' size-5 text-[#2dba4e]' /></Link>
                                 </div>
                                 <div className="hover:translate-y-0.5 duration-500  btn-ghost shadow shadow-slate-300 rounded-md items-center border-collapse justify-center avatar w-8 h-8">
-                                <Link to="/images/farid_cv.pdf" target="_blank"> <FaRegFilePdf className='size-5 text-[#F40F02]' /></Link>
+                                    <Link to="/images/farid_cv.pdf" target="_blank"> <FaRegFilePdf className='size-5 text-[#F40F02]' /></Link>
                                 </div>
                             </div>
                         </div>

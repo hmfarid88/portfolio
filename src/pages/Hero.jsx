@@ -13,10 +13,10 @@ const Hero = () => {
                     <div className="px-4 md:px-4 order-last md:order-first">
                         <p className='text-sm md:text-md font-bold tracking-widest pt-4' >WELCOME TO MY WORLD</p>
                         <h1 className='font-bold font-sans text-lg md:text-2xl pt-4'>
-                            Hi, I'm <a className='text-accent'>HM Farid Uddin</a> {' '}<br />
+                            Hi, I&apos;m <a className='text-accent'>HM Farid Uddin</a> {' '}<br />
                             <span>
                                 <Typewriter
-                                    words={['A Full Stack Developer', 'React & Spring Boot']}
+                                    words={['Full Stack Web Developer', 'React & Spring Boot']}
                                     loop={20}
                                     cursor
                                     cursorStyle='|'
@@ -80,8 +80,8 @@ const Hero = () => {
                     </div>
 
                     <div className="pt-24 order-first md:order-last">
-                        <div className="shadow-2xl shadow-slate-500  h-64 w-64 md:h-96 md:w-96 hover:scale-105 duration-500 relative">
-                            <img className='absolute inset-x-0 bottom-0' alt='HM Farid Uddin' src='/images/farid_portfolio_1.png' />
+                        <div className="shadow-2xl shadow-slate-500  h-64 w-64 md:h-96 md:w-96  hover:scale-105 duration-500 relative">
+                            <img className='absolute inset-x-16 bottom-0 h-[130%] w-[60%]' alt='HM Farid Uddin' src='/images/formal.png' />
                         </div>
                     </div>
 

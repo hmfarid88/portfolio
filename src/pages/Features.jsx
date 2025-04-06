@@ -9,41 +9,42 @@ const Features = () => {
   const featuresData = [
     {
       id: 1,
-      icon:<CgIfDesign/>,
+      icon: <CgIfDesign />,
       title: "Website Design",
-      des: "I design professional web appplication and user experience elegantly."
+      des: "I craft elegant, user-friendly web interfaces focused on delivering a seamless user experience.",
     },
     {
       id: 2,
-      icon:<FaLaptopCode/>,
+      icon: <FaLaptopCode />,
       title: "Website Development",
-      des: "I not only design website but also develop very efficient way with next ja and spring boot framework."
+      des: "Beyond design, I develop high-performance web applications using Next.js and Spring Boot frameworks.",
     },
     {
       id: 3,
-      icon:<IoMdBusiness/>,
-      title: "Business Stratagy",
-      des: "I make automation system for your business according to your stratagy."
+      icon: <IoMdBusiness />,
+      title: "Business Strategy",
+      des: "I create custom automation systems aligned with your business strategies to boost efficiency and scalability.",
     },
     {
       id: 4,
-      icon:<RiSeoLine/>,
-      title: "SEO & DIgital Marketing",
-      des: "Search engine optimization and digital marketing are very essential for business promotion. I also serve tese for my clients business promotion"
+      icon: <RiSeoLine />,
+      title: "SEO & Digital Marketing",
+      des: "I help promote businesses through effective SEO and digital marketing strategies tailored to your niche.",
     },
     {
       id: 5,
-      icon:<TfiServer/>,
+      icon: <TfiServer />,
       title: "VPS Server Management",
-      des: "I make virtual private server for my project specially for java project. I make it as needed as project demand."
+      des: "I set up and manage Virtual Private Servers (VPS), especially for Java-based applications, based on project requirements.",
     },
     {
       id: 6,
-      icon:<MdOutlinePhoneAndroid/>,
-      title: "Mobile App",
-      des: "I develop mobile app for mobile version of web application and also make native mobile app as need as clients."
+      icon: <MdOutlinePhoneAndroid />,
+      title: "Mobile App Development",
+      des: "I develop mobile-friendly versions of web apps and build native mobile apps tailored to client needs.",
     },
-  ]
+  ];
+  
   return (
     <section name="features">
     <div className="container-2xl p-4 pt-5">
@@ -53,7 +54,7 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-5">
         {featuresData.map((item) => (
           <div className="card border shadow-lg hover:scale-105 duration-500 hover:text-accent shadow-slate-700 w-full p-4">
-            <h1 className="text-3xl md:text-5xl text-accent font-bold">{item.icon}</h1>
+            <h1 className="text-3xl md:text-5xl font-bold">{item.icon}</h1>
             <h1 className="text-lg md:text-xl font-bold">{item.title}</h1>
             <p className="text-md md:text-lg pt-4">{item.des}</p>
           </div>
